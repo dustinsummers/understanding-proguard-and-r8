@@ -1,0 +1,146 @@
+Processing 'TestFile2.dex'...
+Opened 'TestFile2.dex', DEX version '035'
+Class #0            -
+  Class descriptor  : 'LTestFile2$PostMan;'
+  Access flags      : 0x0600 (INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in LTestFile2$PostMan;)
+      name          : 'letterTime'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 18 (TestFile2.java)
+
+Class #1            -
+  Class descriptor  : 'LTestFile2$Messenger;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'LTestFile2$PostMan;'
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in LTestFile2$Messenger;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10000 (CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00024c:                                        |[00024c] TestFile2$Messenger.<init>:()V
+00025c: 7010 0700 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@0007
+000262: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=7
+      locals        : 
+        0x0000 - 0x0004 reg=0 this LTestFile2$Messenger; 
+
+  Virtual methods   -
+    #0              : (in LTestFile2$Messenger;)
+      name          : 'letterTime'
+      type          : '(Ljava/lang/String;)V'
+      access        : 0x0001 (PUBLIC)
+      code          -
+      registers     : 5
+      ins           : 2
+      outs          : 2
+      insns size    : 25 16-bit code units
+000264:                                        |[000264] TestFile2$Messenger.letterTime:(Ljava/lang/String;)V
+000274: 6200 0000                              |0000: sget-object v0, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@0000
+000278: 2201 0900                              |0002: new-instance v1, Ljava/lang/StringBuilder; // type@0009
+00027c: 7010 0800 0100                         |0004: invoke-direct {v1}, Ljava/lang/StringBuilder;.<init>:()V // method@0008
+000282: 1a02 1100                              |0007: const-string v2, "Sending a message: " // string@0011
+000286: 6e20 0900 2100                         |0009: invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@0009
+00028c: 0c01                                   |000c: move-result-object v1
+00028e: 6e20 0900 4100                         |000d: invoke-virtual {v1, v4}, Ljava/lang/StringBuilder;.append:(Ljava/lang/String;)Ljava/lang/StringBuilder; // method@0009
+000294: 0c01                                   |0010: move-result-object v1
+000296: 6e10 0a00 0100                         |0011: invoke-virtual {v1}, Ljava/lang/StringBuilder;.toString:()Ljava/lang/String; // method@000a
+00029c: 0c01                                   |0014: move-result-object v1
+00029e: 6e20 0600 1000                         |0015: invoke-virtual {v0, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@0006
+0002a4: 0e00                                   |0018: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=11
+        0x0018 line=12
+      locals        : 
+        0x0000 - 0x0019 reg=3 this LTestFile2$Messenger; 
+
+  source_file_idx   : 18 (TestFile2.java)
+
+Class #2            -
+  Class descriptor  : 'LTestFile2;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in LTestFile2;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10000 (CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+0002a8:                                        |[0002a8] TestFile2.<init>:()V
+0002b8: 7010 0700 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@0007
+0002be: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=1
+      locals        : 
+        0x0000 - 0x0004 reg=0 this LTestFile2; 
+
+    #1              : (in LTestFile2;)
+      name          : 'main'
+      type          : '([Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 1
+      insns size    : 9 16-bit code units
+0002c0:                                        |[0002c0] TestFile2.main:([Ljava/lang/String;)V
+0002d0: 2200 0000                              |0000: new-instance v0, LTestFile2$Messenger; // type@0000
+0002d4: 7010 0000 0000                         |0002: invoke-direct {v0}, LTestFile2$Messenger;.<init>:()V // method@0000
+0002da: 7110 0500 0000                         |0005: invoke-static {v0}, LTestFile2;.sendMessage:(LTestFile2$Messenger;)V // method@0005
+0002e0: 0e00                                   |0008: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=17
+        0x0008 line=18
+      locals        : 
+
+    #2              : (in LTestFile2;)
+      name          : 'sendMessage'
+      type          : '(LTestFile2$Messenger;)V'
+      access        : 0x000a (PRIVATE STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 6 16-bit code units
+0002e4:                                        |[0002e4] TestFile2.sendMessage:(LTestFile2$Messenger;)V
+0002f4: 1a00 0100                              |0000: const-string v0, "EMERGENCY RESPONSE MESSAGE" // string@0001
+0002f8: 6e20 0100 0100                         |0002: invoke-virtual {v1, v0}, LTestFile2$Messenger;.letterTime:(Ljava/lang/String;)V // method@0001
+0002fe: 0e00                                   |0005: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=21
+        0x0005 line=22
+      locals        : 
+
+  Virtual methods   -
+  source_file_idx   : 18 (TestFile2.java)
+

@@ -1,0 +1,152 @@
+Processing 'classes.dex'...
+Opened 'classes.dex', DEX version '035'
+Class #0            -
+  Class descriptor  : 'LTestFile3$PostMan;'
+  Access flags      : 0x0600 (INTERFACE ABSTRACT)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+  Virtual methods   -
+    #0              : (in LTestFile3$PostMan;)
+      name          : 'letterTime'
+      type          : '(Ljava/lang/Object;)V'
+      access        : 0x0401 (PUBLIC ABSTRACT)
+      code          : (none)
+
+  source_file_idx   : 18 (TestFile3.java)
+
+Class #1            -
+  Class descriptor  : 'LTestFile3;'
+  Access flags      : 0x0000 ()
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+  Static fields     -
+  Instance fields   -
+  Direct methods    -
+    #0              : (in LTestFile3;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x10000 (CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00024c:                                        |[00024c] TestFile3.<init>:()V
+00025c: 7010 0800 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@0008
+000262: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=1
+      locals        : 
+        0x0000 - 0x0004 reg=0 this LTestFile3; 
+
+    #1              : (in LTestFile3;)
+      name          : 'lambda$main$0'
+      type          : '(Ljava/lang/Object;)V'
+      access        : 0x1008 (STATIC SYNTHETIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 6 16-bit code units
+000264:                                        |[000264] TestFile3.lambda$main$0:(Ljava/lang/Object;)V
+000274: 6200 0100                              |0000: sget-object v0, Ljava/lang/System;.out:Ljava/io/PrintStream; // field@0001
+000278: 6e20 0700 1000                         |0002: invoke-virtual {v0, v1}, Ljava/io/PrintStream;.println:(Ljava/lang/Object;)V // method@0007
+00027e: 0e00                                   |0005: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=7
+      locals        : 
+
+    #2              : (in LTestFile3;)
+      name          : 'main'
+      type          : '([Ljava/lang/String;)V'
+      access        : 0x0009 (PUBLIC STATIC)
+      code          -
+      registers     : 2
+      ins           : 1
+      outs          : 2
+      insns size    : 8 16-bit code units
+000280:                                        |[000280] TestFile3.main:([Ljava/lang/String;)V
+000290: 6201 0000                              |0000: sget-object v1, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;.INSTANCE:L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I; // field@0000
+000294: 1a00 1100                              |0002: const-string v0, "Sending a message: I'm Using Lamdas" // string@0011
+000298: 7220 0300 0100                         |0004: invoke-interface {v1, v0}, LTestFile3$PostMan;.letterTime:(Ljava/lang/Object;)V // method@0003
+00029e: 0e00                                   |0007: return-void
+      catches       : (none)
+      positions     : 
+        0x0000 line=7
+        0x0004 line=9
+      locals        : 
+
+  Virtual methods   -
+  source_file_idx   : 18 (TestFile3.java)
+
+Class #2            -
+  Class descriptor  : 'L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;'
+  Access flags      : 0x1011 (PUBLIC FINAL SYNTHETIC)
+  Superclass        : 'Ljava/lang/Object;'
+  Interfaces        -
+    #0              : 'LTestFile3$PostMan;'
+  Static fields     -
+    #0              : (in L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;)
+      name          : 'INSTANCE'
+      type          : 'L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;'
+      access        : 0x1019 (PUBLIC STATIC FINAL SYNTHETIC)
+  Instance fields   -
+  Direct methods    -
+    #0              : (in L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;)
+      name          : '<clinit>'
+      type          : '()V'
+      access        : 0x11008 (STATIC SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 0
+      outs          : 1
+      insns size    : 8 16-bit code units
+0001fc:                                        |[0001fc] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.<clinit>:()V
+00020c: 2200 0000                              |0000: new-instance v0, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I; // type@0000
+000210: 7010 0100 0000                         |0002: invoke-direct {v0}, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;.<init>:()V // method@0001
+000216: 6900 0000                              |0005: sput-object v0, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;.INSTANCE:L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I; // field@0000
+00021a: 0e00                                   |0007: return-void
+      catches       : (none)
+      positions     : 
+      locals        : 
+
+    #1              : (in L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;)
+      name          : '<init>'
+      type          : '()V'
+      access        : 0x11002 (PRIVATE SYNTHETIC CONSTRUCTOR)
+      code          -
+      registers     : 1
+      ins           : 1
+      outs          : 1
+      insns size    : 4 16-bit code units
+00021c:                                        |[00021c] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.<init>:()V
+00022c: 7010 0800 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@0008
+000232: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+      locals        : 
+
+  Virtual methods   -
+    #0              : (in L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;)
+      name          : 'letterTime'
+      type          : '(Ljava/lang/Object;)V'
+      access        : 0x0011 (PUBLIC FINAL)
+      code          -
+      registers     : 2
+      ins           : 2
+      outs          : 1
+      insns size    : 4 16-bit code units
+000234:                                        |[000234] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.letterTime:(Ljava/lang/Object;)V
+000244: 7110 0500 0100                         |0000: invoke-static {v1}, LTestFile3;.lambda$main$0:(Ljava/lang/Object;)V // method@0005
+00024a: 0e00                                   |0003: return-void
+      catches       : (none)
+      positions     : 
+      locals        : 
+
+  source_file_idx   : 23 (lambda)
+
