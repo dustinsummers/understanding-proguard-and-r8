@@ -157,7 +157,7 @@ Class #2            -
       ins           : 0
       outs          : 1
       insns size    : 8 16-bit code units
-000304:                                        |[000304] -$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.<clinit>:()V
+000304:                                        |[000304] -..Lambda.TestFile4.CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.<clinit>:()V
 000314: 2200 0000                              |0000: new-instance v0, L-$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk; // type@0000
 000318: 7010 0100 0000                         |0002: invoke-direct {v0}, L-$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk;.<init>:()V // method@0001
 00031e: 6900 0000                              |0005: sput-object v0, L-$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk;.INSTANCE:L-$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk; // field@0000
@@ -175,7 +175,7 @@ Class #2            -
       ins           : 1
       outs          : 1
       insns size    : 4 16-bit code units
-000324:                                        |[000324] -$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.<init>:()V
+000324:                                        |[000324] -..Lambda.TestFile4.CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.<init>:()V
 000334: 7010 0f00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000f
 00033a: 0e00                                   |0003: return-void
       catches       : (none)
@@ -192,7 +192,7 @@ Class #2            -
       ins           : 2
       outs          : 1
       insns size    : 6 16-bit code units
-00033c:                                        |[00033c] -$$Lambda$TestFile4$CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.letterTime:(Ljava/lang/Object;)V
+00033c:                                        |[00033c] -..Lambda.TestFile4.CBZmV5e2DFDt_3JpLfQ_O3P5ZSk.letterTime:(Ljava/lang/Object;)V
 00034c: 1f01 0c00                              |0000: check-cast v1, Ljava/lang/String; // type@000c
 000350: 7110 0b00 0100                         |0002: invoke-static {v1}, LTestFile4;.lambda$main$1:(Ljava/lang/String;)V // method@000b
 000356: 0e00                                   |0005: return-void
@@ -224,7 +224,7 @@ Class #3            -
       ins           : 0
       outs          : 1
       insns size    : 8 16-bit code units
-000358:                                        |[000358] -$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU.<clinit>:()V
+000358:                                        |[000358] -..Lambda.TestFile4.dd9qFzv7MLPK2yewvXIZ2MiuhrU.<clinit>:()V
 000368: 2200 0100                              |0000: new-instance v0, L-$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU; // type@0001
 00036c: 7010 0400 0000                         |0002: invoke-direct {v0}, L-$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU;.<init>:()V // method@0004
 000372: 6900 0100                              |0005: sput-object v0, L-$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU;.INSTANCE:L-$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU; // field@0001
@@ -242,7 +242,7 @@ Class #3            -
       ins           : 1
       outs          : 1
       insns size    : 4 16-bit code units
-000378:                                        |[000378] -$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU.<init>:()V
+000378:                                        |[000378] -..Lambda.TestFile4.dd9qFzv7MLPK2yewvXIZ2MiuhrU.<init>:()V
 000388: 7010 0f00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000f
 00038e: 0e00                                   |0003: return-void
       catches       : (none)
@@ -259,7 +259,7 @@ Class #3            -
       ins           : 2
       outs          : 1
       insns size    : 6 16-bit code units
-000390:                                        |[000390] -$$Lambda$TestFile4$dd9qFzv7MLPK2yewvXIZ2MiuhrU.letterTime:(Ljava/lang/Object;)V
+000390:                                        |[000390] -..Lambda.TestFile4.dd9qFzv7MLPK2yewvXIZ2MiuhrU.letterTime:(Ljava/lang/Object;)V
 0003a0: 1f01 0c00                              |0000: check-cast v1, Ljava/lang/String; // type@000c
 0003a4: 7110 0a00 0100                         |0002: invoke-static {v1}, LTestFile4;.lambda$main$0:(Ljava/lang/String;)V // method@000a
 0003aa: 0e00                                   |0005: return-void
@@ -291,7 +291,7 @@ Class #4            -
       ins           : 2
       outs          : 1
       insns size    : 6 16-bit code units
-0003ac:                                        |[0003ac] -$$Lambda$ePK7hUzCxkVUDs3_mUjSTfD1gfs.<init>:(Ljava/io/PrintStream;)V
+0003ac:                                        |[0003ac] -..Lambda.ePK7hUzCxkVUDs3_mUjSTfD1gfs.<init>:(Ljava/io/PrintStream;)V
 0003bc: 7010 0f00 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@000f
 0003c2: 5b01 0200                              |0003: iput-object v1, v0, L-$$Lambda$ePK7hUzCxkVUDs3_mUjSTfD1gfs;.f$0:Ljava/io/PrintStream; // field@0002
 0003c6: 0e00                                   |0005: return-void
@@ -309,7 +309,7 @@ Class #4            -
       ins           : 2
       outs          : 2
       insns size    : 8 16-bit code units
-0003c8:                                        |[0003c8] -$$Lambda$ePK7hUzCxkVUDs3_mUjSTfD1gfs.letterTime:(Ljava/lang/Object;)V
+0003c8:                                        |[0003c8] -..Lambda.ePK7hUzCxkVUDs3_mUjSTfD1gfs.letterTime:(Ljava/lang/Object;)V
 0003d8: 5410 0200                              |0000: iget-object v0, v1, L-$$Lambda$ePK7hUzCxkVUDs3_mUjSTfD1gfs;.f$0:Ljava/io/PrintStream; // field@0002
 0003dc: 1f02 0c00                              |0002: check-cast v2, Ljava/lang/String; // type@000c
 0003e0: 6e20 0e00 2000                         |0004: invoke-virtual {v0, v2}, Ljava/io/PrintStream;.println:(Ljava/lang/String;)V // method@000e

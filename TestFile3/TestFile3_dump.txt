@@ -106,7 +106,7 @@ Class #2            -
       ins           : 0
       outs          : 1
       insns size    : 8 16-bit code units
-0001fc:                                        |[0001fc] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.<clinit>:()V
+0001fc:                                        |[0001fc] -..Lambda.TestFile3.TRfoze3wZZ0PIPWJO0EVRXn65-I.<clinit>:()V
 00020c: 2200 0000                              |0000: new-instance v0, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I; // type@0000
 000210: 7010 0100 0000                         |0002: invoke-direct {v0}, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;.<init>:()V // method@0001
 000216: 6900 0000                              |0005: sput-object v0, L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I;.INSTANCE:L-$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I; // field@0000
@@ -124,7 +124,7 @@ Class #2            -
       ins           : 1
       outs          : 1
       insns size    : 4 16-bit code units
-00021c:                                        |[00021c] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.<init>:()V
+00021c:                                        |[00021c] -..Lambda.TestFile3.TRfoze3wZZ0PIPWJO0EVRXn65-I.<init>:()V
 00022c: 7010 0800 0000                         |0000: invoke-direct {v0}, Ljava/lang/Object;.<init>:()V // method@0008
 000232: 0e00                                   |0003: return-void
       catches       : (none)
@@ -141,7 +141,7 @@ Class #2            -
       ins           : 2
       outs          : 1
       insns size    : 4 16-bit code units
-000234:                                        |[000234] -$$Lambda$TestFile3$TRfoze3wZZ0PIPWJO0EVRXn65-I.letterTime:(Ljava/lang/Object;)V
+000234:                                        |[000234] -..Lambda.TestFile3.TRfoze3wZZ0PIPWJO0EVRXn65-I.letterTime:(Ljava/lang/Object;)V
 000244: 7110 0500 0100                         |0000: invoke-static {v1}, LTestFile3;.lambda$main$0:(Ljava/lang/Object;)V // method@0005
 00024a: 0e00                                   |0003: return-void
       catches       : (none)
