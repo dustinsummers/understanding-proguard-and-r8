@@ -19,14 +19,13 @@ class TestFile3 {
 
     private static void sendMessage(Messenger messenger){
         String messageToSend = "I'm implementing interfaces!!";
-        
+
         messenger.letterTime(new Message(messageToSend));
     }
 
-    private static void messageToRemove(boolean isRemoved){
-	System.out.println("This will get removed");
+    private static void methodToRemove(boolean isRemoved){
+	   System.out.println("This will get removed");
     }
-
 }
 
 class Message{
