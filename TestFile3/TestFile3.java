@@ -18,7 +18,9 @@ class TestFile3 {
     }
 
     private static void sendMessage(Messenger messenger){
-        messenger.letterTime(new Message("I'm implementing interfaces!!"));
+        String messageToSend = "I'm implementing interfaces!!";
+        
+        messenger.letterTime(new Message(messageToSend));
     }
 
     private static void messageToRemove(boolean isRemoved){
