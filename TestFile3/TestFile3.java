@@ -8,7 +8,7 @@ class TestFile3 {
 
         @Override
         public void letterTime(Message message) {
-            System.out.println("Sending a message: " + message.getMessage());
+            System.out.println("Oh the times, " + message.getMessage());
         }
     }
 
@@ -18,7 +18,7 @@ class TestFile3 {
     }
 
     private static void sendMessage(Messenger messenger){
-        String messageToSend = "I'm implementing interfaces!!";
+        String messageToSend = "they are a changin";
 
         messenger.letterTime(new Message(messageToSend));
     }
