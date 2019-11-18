@@ -2,7 +2,8 @@
 *.class
 *.dex
 *.smali
-*dump.txt
+*seeds.txt
+*usage.txt
 
 # Log file
 *.log

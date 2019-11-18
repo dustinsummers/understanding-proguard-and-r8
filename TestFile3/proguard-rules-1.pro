@@ -1,6 +1,6 @@
--injars      TestFile3Classes
--outjars     TestFile3_Out_1
--libraryjars  /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/jre/lib
+-injars TestFile3Classes
+-outjars TestFile3_Out_1
+-libraryjars /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/jre/lib/rt.jar
 
 -dontobfuscate
 -dontshrink
